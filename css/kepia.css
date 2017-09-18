@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+article{
+    width:1200px;
+    margin: 25px auto 0px;
+}
+article p:first-child{
+    float: right;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-family:宋体;
+    display: block;
+}
+.intit{
+    text-align: center;
+    margin-top: 30px;
+    clear:both;
+}
+.intit h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 50px;
+}
+.intit em{
+    font-size: 24px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    margin:0 5px;
+    font-family: Verdana;
+}
+.intit h2 span{
+    font-size: 34px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin: 0 5px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+.intit dd{
+    height: 8px;
+    width: 70px;
+    border-top: 2px solid #cbcbcb;
+    margin: 0 auto;
+}
+.intit dl{
+    color: #3c3c3c;
+    line-height: 18px;
+    font-size:12px;
+}
+.intit span{
+    color: #b0b0b0;
+    font-family: Arial;
+    line-height: 14px;
+    font-size:12px;
+}
+/**/
+.demo{
+    height: 84px;
+    margin: 5px auto 0;
+    border-bottom: 1px solid #cecece;
+}
+.demo ul{
+	width:1080px;
+    display: block;
+	float:left;
+}
+.demo ul li{
+    display: inline-block;
+    line-height: 70px;
+}
+.demo ul li:first-child{
+    margin-left:30px;
+    color: #7edab2;
+    font-size: 44px;
+    font-family: Rockwell,arial;
+    font-weight: 500;
+}
+.demo ul li:nth-child(2){
+    color: #000;
+    font-size: 44px;
+    font-family: Rockwell,arial;
+    font-weight: 500;
+}
+.demo ul li:nth-child(3){
+    color: #000;
+    font-size: 24px;
+    font-family: Rockwell,arial;
+    font-weight: 500;
+}
+/*图片*/
+.img_every{
+    width:1200px;
+    margin:20px auto;
+}
+.img_every img{
+    width:1200px;
+    display: block;
+    margin-bottom: 10px;
+}
+/**/	
+.pageu a{
+    width:100%;
+    display: block;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 38px;
+    background: #f6f4f3;
+    color: #333;
+    font-size: 22px;
+}
+

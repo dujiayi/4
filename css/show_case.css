@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+article{
+    width:1200px;
+    margin: 25px auto 0px;
+}
+article p:first-child{
+    float: right;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-family:宋体;
+    display: block;
+}
+.intit{
+    text-align: center;
+    margin-top: 30px;
+    clear:both;
+}
+.intit h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 50px;
+}
+.intit em{
+    font-size: 24px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    margin:0 5px;
+    font-family: Verdana;
+}
+.intit h2 span{
+    font-size: 34px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin: 0 5px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+.intit dd{
+    height: 8px;
+    width: 70px;
+    border-top: 2px solid #cbcbcb;
+    margin: 0 auto;
+}
+.intit dl{
+    color: #3c3c3c;
+    line-height: 18px;
+    font-size: 12px;
+}
+.intit span{
+    color: #b0b0b0;
+    font-family: Arial;
+    line-height: 14px;
+    font-size: 12px;
+}
+/**/
+.demo{
+    height: 84px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.next{
+    background:url(../imgs/caarr.png) no-repeat 0 0;
+    width: 30px;
+    height: 70px;
+    display: block;
+	float:left;
+}
+.pre{
+    background:url(../imgs/caarr.png) no-repeat -30px 0;
+    width: 30px;
+    height: 70px;
+    display: block;
+	float:right;
+}
+.next:hover{
+    background-position: 0 -70px;
+}
+.pre:hover{
+    background-position: -30px -70px;
+}
+.demo ul{
+	width:1080px;
+    display: block;
+	float:left;
+}
+.demo ul a{
+	float: left;
+    display: block;
+    width: 258px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #c4c4c4;
+    margin: 0 5px;
+	color: #000;
+	transition:all .2s;
+}
+.demo ul a:hover{
+	background: #7edab2;
+    border-color: #7edab2;
+	}
+
+/*图片*/
+.dress{
+    width: 1200px;
+    border-bottom: 1px solid #717171;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+	display:block;
+	transition:all .3s;
+}
+.dress2{
+    width: 1200px;
+    border-bottom: 1px solid #717171;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+	display:none;
+	transition:all .3s;
+}
+.dress3{
+    width: 1200px;
+    border-bottom: 1px solid #717171;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+	display:none;
+	transition:all .3s;
+}
+.dress_content{
+	float: left;
+    display: inline;
+    width: 385px;
+    height: 550px;
+    margin: 0 0 20px 0;
+    position: relative;
+	}
+.dress_content1{
+	float: left;
+    display: inline;
+    width: 385px;
+    height: 550px;
+    position: relative;
+	margin:0 22px 20px 22px;
+	}
+.dress_img{
+    width: 385px;
+    height: 550px;
+	position:absolute;
+	}
+.dress_case{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:360px;
+	height:30px;
+	padding:50px 0 0 25px;
+	color: #fff;
+    font-size: 14px;
+	background:url(../img/catit.png) no-repeat 0 0;
+	}
+.dress_case span{
+	transition:all .6s;
+	}
+.dress_content:hover .dress_case{
+	background:url(../img/catit.png) no-repeat -385px 0;
+	color: #000;
+	}
+.dress_content1:hover .dress_case{
+	background:url(../img/catit.png) no-repeat -385px 0;
+	color: #000;
+	}
+/**/	
+.pageu{
+    line-height: 22px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.pageu span{
+    line-height: 22px;
+    color: #000;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.pageu a:first-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center 0;
+}
+.pageu a:last-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center -44px;
+}
+

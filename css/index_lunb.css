@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*时尚态度系列下的轮播图*/
+#box1{
+        width:100%;
+        min-width: 1200px;
+        height:636px;
+        margin:20px auto 0;
+        position: relative;
+    }
+    #ul3{
+        height:590px;
+        overflow:hidden;
+        position: relative;
+    }
+    #ul3 li a img{
+        width:100%;
+        height: 590px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition:opacity .2s linear;
+    }
+    #ul3 li a img.active3{
+        opacity: 1;
+    }
+    #ul4{
+        width: 1200px;
+        display: block;
+        position:absolute;
+        bottom:0px;
+        left: 50%;
+        margin-left:-600px;
+    }
+    #ul4 li{
+        width:398px;
+        height:71px;
+        display: block;
+        float: left;
+        margin:0 1px;
+        background:#7edab2;
+        transition:all .3s linear;
+    }
+    #ul4 li>a{
+        display: block;
+        margin:12px 0 0 17px;
+        display: block;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+    }
+    #ul4 .active2{
+        background:#383b4a;
+    }
+/*高端定制系列下的轮播图*/
+#box2{
+        width:100%;
+        min-width: 1200px;
+        height:636px;
+        margin:20px auto 0;
+        position: relative;
+    }
+    #ul5{
+        height:590px;
+        overflow:hidden;
+        position: relative;
+    }
+    #ul5 li a img{
+        width:100%;
+        height: 590px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition:opacity .2s linear;
+    }
+    #ul5 li a img.hover{
+        opacity: 1;
+    }
+    #ul6{
+        width: 1200px;
+        display: block;
+        position:absolute;
+        bottom:0px;
+        left: 50%;
+        margin-left:-600px;
+    }
+    #ul6 li{
+        width:398px;
+        height:71px;
+        display: block;
+        float: left;
+        margin:0 1px;
+        background:#7edab2;
+        transition:all .3s linear;
+    }
+    #ul6 li>a{
+        display: block;
+        margin:12px 0 0 17px;
+        display: block;
+        line-height: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+    }
+    #ul6 .hover{
+        background:#383b4a;
+    }

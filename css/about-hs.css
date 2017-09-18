@@ -1,0 +1,179 @@
+article{
+    width:1200px;
+    margin: 25px auto 0px;
+}
+article p:first-child{
+    float: right;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-family:宋体;
+    display: block;
+}
+.intit{
+    text-align: center;
+    margin-top: 30px;
+    clear:both;
+}
+.intit h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 50px;
+}
+.intit em{
+    font-size: 24px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    margin:0 5px;
+    font-family: Verdana;
+}
+.intit h2 span{
+    font-size: 34px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin: 0 5px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+.intit dd{
+    height: 8px;
+    width: 70px;
+    border-top: 2px solid #cbcbcb;
+    margin: 0 auto;
+}
+.intit dl{
+    color: #3c3c3c;
+    line-height: 18px;
+}
+.intit span{
+    color: #b0b0b0;
+    font-family: Arial;
+    line-height: 14px;
+}
+.demo{
+    height: 84px;
+    position: relative;
+    margin: 50px 0 0 0;
+    overflow: hidden;
+}
+.demo a:first-child{
+    background:url(../imgs/caarr.png) no-repeat;
+    width: 30px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-position: 0 0;
+    left: 0;
+}
+.demo a:last-child{
+    background:url(../imgs/caarr.png) no-repeat;
+    width: 30px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-position: -30px 0;
+    right: 0;
+}
+.demo a:first-child:hover{
+    background-position: 0 -70px;
+}
+.demo a:last-child:hover{
+    background-position: -30px -70px;
+}
+.demo p{
+    width: 368px;
+    height: 68px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+    border-image: initial;
+    margin: 0 auto;
+}
+.dress{
+    width: 1200px;
+    border-bottom: 1px solid #717171;
+    margin: 0 auto;
+    padding: 47px 0 50px 0;
+    overflow: hidden;
+}
+.dress li{
+    width: 290px;
+    height: 390px;
+    float: left;
+    position: relative;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+}
+.dress tt{
+    height: 0px;   
+    transition: all 0.8s; 
+}
+.dress li:hover tt{
+    width: 290px;
+    height: 390px;
+    display: block;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dress ins{
+    width: 290px;
+    height: 390px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -290px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.8s; 
+}
+.dress ins dd{
+    font-size: 18px;
+    margin-top: 130px;
+    margin-bottom: 14px;
+}
+.dress li:hover ins{
+    left: 0;
+}
+.pageu{
+    line-height: 22px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.pageu span{
+    line-height: 22px;
+    color: #000;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.pageu a:first-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center 0;
+}
+.pageu a:last-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center -44px;
+}

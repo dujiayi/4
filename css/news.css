@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+article{
+    width:1200px;
+    margin: 25px auto 0px;
+}
+article .p{
+    float: right;
+    line-height: 18px;
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    font-family:宋体;
+    display: block;
+}
+.intit{
+    text-align: center;
+    margin-top: 30px;
+    clear:both;
+}
+.intit h2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    line-height: 50px;
+}
+.intit em{
+    font-size: 24px;
+    font-style: normal;
+    color: #000;
+    font-weight: normal;
+    margin:0 5px;
+    font-family: Verdana;
+}
+.intit h2 span{
+    font-size: 34px;
+    font-weight: bold;
+    color: #5a5a5a;
+    margin: 0 5px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+.intit dd{
+    height: 8px;
+    width: 70px;
+    border-top: 2px solid #cbcbcb;
+    margin: 0 auto;
+}
+.intit dl{
+    color: #3c3c3c;
+    line-height: 18px;
+}
+.intit span{
+    color: #b0b0b0;
+    font-family: Arial;
+    line-height: 14px;
+}
+/**/
+.demo{
+    height: 84px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    display: flex;
+}
+.next{
+    background:url(../imgs/caarr.png) no-repeat 0 0;
+    width: 30px;
+    height: 70px;
+    display: block;
+	float:left;
+}
+.pre{
+    background:url(../imgs/caarr.png) no-repeat -30px 0;
+    width: 30px;
+    height: 70px;
+    display: block;
+	float:right;
+}
+.next:hover{
+    background-position: 0 -70px;
+}
+.pre:hover{
+    background-position: -30px -70px;
+}
+.demo ul{
+	width:1080px;
+    display:flex;
+    justify-content: space-around;
+}
+.demo ul a{
+	float: left;
+    display: block;
+    width: 258px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #c4c4c4;
+    margin: 0 5px;
+	color: #000;
+	transition:all .2s;
+}
+.demo ul a:hover{
+	background: #7edab2;
+    border-color: #7edab2;
+	}
+section{
+    margin: 40px 0 20px 0;
+	display:flex;
+	justify-content:space-between;
+}
+/*左边*/
+.orleft{
+    float: left;
+    width: 883px;
+    position: relative;
+}
+.bb1tit{
+    height: 70px;
+    background: #f8f5f6;
+    line-height: 70px;
+    text-indent: 20px;
+}
+.bb1tit strong{
+    font-size: 40px;
+    font-family: Verdana,arial;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+.bb1tit strong i{
+    font-style: normal;
+    color: #7edab2;
+}
+.bb1tit strong span{
+    font-size: 24px;
+    vertical-align: top;
+}
+.dress{
+    margin-top: 35px;
+    position: relative;
+    overflow: hidden;
+    transition:all .3s;
+    display: block;
+}
+.dress2{
+    margin-top: 35px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    transition:all .3s;
+}
+.dress3{
+    margin-top: 35px;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    transition:all .3s;
+}
+.orleft a{
+    padding: 26px 0;
+    float: left;
+    width: 440px;
+    height: 90px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.orleft a:hover .t2 span,.orleft a:hover .t2 p,.orleft a:hover .t1 p,.orleft a:hover .t1 span{
+    color: #000;
+}
+.le{
+    border-left: 1px solid #e5e5e5;
+}
+.t1{
+    float: left;
+    width: 90px;
+    height: 90px;
+    background: url(../imgs/ordatebg.jpg) no-repeat;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.t1 p{
+    padding-top: 14px;
+    font-size: 56px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #585858;
+}
+.t1 span{
+    display: block;
+    line-height: 14px;
+    color: #9f9f9f;
+}
+.t2{
+    float: left;
+    width: 290px;
+    height: 90px;
+    padding-left: 20px;
+}
+.t2 p{
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #585858;
+}
+.t2 span{
+    display: block;
+    line-height: 22px;
+    color: #9f9f9f;
+}
+.orleft a:nth-child(11),.dress a:nth-child(12){
+    border-bottom: none;
+}
+/*右边*/
+.oright{
+	width: 260px;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 28px;
+}
+.bbtit{
+	height: 70px;
+    padding-left: 15px;
+    background: #f6f5f7;
+    margin-bottom: 40px;
+}
+.bbtit strong{
+	display: block;
+    font-size: 26px;
+    line-height: 34px;
+    padding-top: 6px;
+    letter-spacing: -1px;
+	font-weight: normal;
+}
+.bbtit strong i{
+    font-style: normal;
+	color: #7edab2;
+}
+.bbtit span{
+	font-size: 18px;
+    line-height: 20px;
+}
+.bbl{
+	margin-top: 15px;
+    margin-bottom: 40px;
+}
+.bbl p{
+	padding: 4px 8px;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    line-height: 20px;
+    color: #6c6c6c;
+}
+.bbl a{
+	display: block;
+    margin-bottom: 10px;
+    background: #f0f0f0;
+}
+.bbl i{
+	float: right;
+    font-size: 16px;
+}
+.bbl span{
+	padding: 6px;
+    display: block;
+    line-height: 18px;
+    color: #6c6c6c;
+}
+.pageu{
+    line-height: 22px;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.pageu span{
+    line-height: 22px;
+    color: #000;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.pageu a{
+    padding: 0;
+    border: 0;
+}
+.pageu a:first-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center 0;
+}
+.pageu a:last-child{
+    display: inline-block;
+    width: 120px;
+    height: 22px;
+    background: url(../imgs/pageuu.png) no-repeat center -44px;
+}
+#tempWrap{
+    height: 400px;
+    width: 260px;
+    position:relative;
+    margin:0px auto;
+    overflow: hidden;
+}
+#bd{
+    width: 1300px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+#bd li{
+    width: 260px;
+    float:left;
+    display: block;
+}
+#bd li img{
+    width: 260px;
+}
+.lay{
+    position: absolute;
+    width: 260px;
+    height: 66px;
+    background: url(../imgs/arrlaybg.png) no-repeat;
+    bottom: 0;
+}.lay span{
+    display: block;
+    text-align: center;
+    padding-top: 38px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+#bd2{
+    width: 260px;
+    padding: 11px 5px 10px;
+    display: block;
+    opacity: 0.7;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+#bd2 li{
+    width:10px;
+    height:10px;
+    display: block;
+    margin: 0 4px;
+    border-radius:50%;
+    background: #000;
+}
+
+#bd2 .on{
+    background: #7edab2;
+    margin: 0 4px;
+}

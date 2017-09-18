@@ -1,0 +1,168 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-07 11:19:36
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-13 09:18:18
+*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,a{
+    margin:0;
+    padding:0;
+    border:0;
+}
+h1,h2,h3,h4,h5,h6 {
+　　font-weight: normal;
+　　font-size: 100%;
+}
+body{
+    width:100%;
+    height: 100%;
+    min-width:1200px;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+#box{
+    width:100%;
+    min-width: 1200px;
+    height:650px;
+    background:#666;
+    position:relative;
+    margin:0px auto;
+    overflow:hidden;
+}
+#ul1{
+    height:1920px;
+    position:relative;
+    overflow:hidden;
+}
+#ul1>li>a{
+    width:100%;
+    height:650px;
+    position:absolute;
+}
+#ul1 li a img{
+        width:100%;
+        height: 650px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition:opacity .1s linear;
+    }
+#ul1 li a img.active{
+        opacity: 1;
+    }
+
+#ul2{
+    padding: 11px 5px 10px;
+    display: block;
+    background: #000;
+    position:absolute;
+    bottom:23px;
+    left:50%;
+    margin-left:-57px;
+    opacity: 0.7;
+    border-radius: 4px;
+}
+#ul2>li{
+    width:14px;
+    height:5px;
+    display: block;
+    float:left;
+    margin: 0 4px;
+    border-radius: 2px;
+    background: #fff;
+}
+
+#ul2 .active{
+    background: #fff600;
+    margin: 0 4px;
+}
+/*logo导航部分*/
+.logo_nav{
+    width: 1200px;
+    height: 98px;
+    position: absolute;
+    top:42px;
+    left: 50%;
+    margin-left:-600px;
+    border-radius: 4px;
+    z-index: 100;
+}
+.background{
+    width: 1200px;
+    height: 98px;
+    background:#fff;
+    opacity: .7;
+    position: absolute;
+    z-index: 0;
+    }
+.logo_nav img{
+    margin:15px 0 0 60px;
+    position: relative;
+    z-index: 100;
+}
+.nav{
+    width: 930px;
+    border:0px solid #B92626;
+    height:100%;
+    float: right;
+    line-height:98px;
+    text-align:center;
+    position: relative;
+    z-index: 100;
+}
+.nav ul{
+    width:115px;
+    height: 98px;
+    float: left;
+    font-size: 14px;
+    font-weight:bold;
+    overflow: hidden;
+    transition:all .1s;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.home{
+    color:#ef4423;
+}
+.ab{
+    width:115px;
+    height:98px;
+    display: block;
+    color: #383b4a;
+}
+.ab1{
+    width:115px;
+    height:98px;
+    display:none;
+    color:#ef4423;
+}
+.nav ul a:nth-child(n+3){
+    width: 115px;
+    display: block;
+    height: 35px;
+    color: #383b4a;
+    line-height:35px;
+    font-weight:normal;
+	background:#F6F6F6;
+}
+.nav ul a:last-child{
+    border-radius:0 0 5px 5px;
+    padding-bottom: 15px;
+}
+.nav ul:hover {
+    height:218px;
+}
+.nav ul:hover .ab{
+    display: none;
+}
+.nav ul:hover .ab1{
+    display:block;
+}
+.nav ul a:hover{
+    color:#ef4423;
+}
+
